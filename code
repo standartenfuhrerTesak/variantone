@@ -10,7 +10,7 @@ float h=20,x,y,s;
 printf ("Введите x->");
 scanf ("%f",&x);
 
-y=5*x+h;
+y=5*x+h+5*x+h;
 
 printf("Х равен = %f",y);
 getchar();
